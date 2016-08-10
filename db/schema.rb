@@ -14,10 +14,10 @@
 ActiveRecord::Schema.define(version: 20160809215056) do
 
   create_table "articles", force: :cascade do |t|
-    t.text   "description"
-    t.time   "created_at"
-    t.time   "updated_at"
-    t.string "title"
+    t.text     "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "title"
   end
 
   create_table "dilleres", force: :cascade do |t|
