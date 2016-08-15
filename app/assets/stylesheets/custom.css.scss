@@ -59,9 +59,19 @@ hr {
 
 //classes
 
+.article-title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.article-body {
+    border-top: 1px solid $gray;
+    padding: 15px 0;
+}
+
 .article-actions {
     border-top: 1px solid $gray;
-    padding-top: 5px;
+    padding-top: 10px;
     
 }
 
