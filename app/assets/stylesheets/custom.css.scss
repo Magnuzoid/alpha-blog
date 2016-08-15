@@ -5,6 +5,8 @@ $btn-primary-bg: #13f1a2;
 $body-bg: #151515;
 $link-color: $brand-primary;
 $text-color: white;
+$well-bg: #333;
+$gray: #555;
 
 
 //ID's
@@ -36,6 +38,11 @@ $text-color: white;
 }
 
 
+//HTML elements
+hr {
+    border-color: $gray !important;
+}
+
 //formatting
 .center {
     text-align: center;
@@ -50,7 +57,17 @@ $text-color: white;
     background-color: $navbar-default-bg;
 }
 
+//classes
 
+.article-actions {
+    border-top: 1px solid $gray;
+    padding-top: 5px;
+    
+}
+
+.description {
+    margin-top: 0;
+}
 
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";
