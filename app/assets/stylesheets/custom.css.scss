@@ -62,6 +62,10 @@ hr {
 .article-title {
     font-weight: bold;
     font-size: 1.5em;
+    
+    a:hover {
+        text-decoration: none;
+    }
 }
 
 .article-body {
