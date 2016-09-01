@@ -83,6 +83,11 @@ hr {
     margin-top: 0;
 }
 
+.article-meta-details {
+    border-top: 1px solid $gray;
+    margin-top: 5px;
+}
+
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";
 @import "bootstrap";
