@@ -8,6 +8,9 @@ class ActiveSupport::TestCase
 
   # Add more helper methods to be used by all tests here...
   def sign_in_as(user, password)
+    
+    #get login_path
     post login_path, session: { email: user.email, password: password }
+    #byebug
     end
 end
